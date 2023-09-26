@@ -30,7 +30,8 @@ module.exports = {
         "inter": ['Inter', 'sans-serif']
       },
       borderRadius: {
-        "signup-radius": "65px"
+        "border-radius-65": "65px",
+        "border-radius-30": "30px"
       },
       boxShadow: {
         "signup-box-shadow": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)"
@@ -47,7 +48,8 @@ module.exports = {
         "155.5": "155.5px",
         "136": "136.129px",
         "145": "145.238px",
-        "366": "366.817",
+        "366": "366.817px",
+        "442": "442px"
       },
       lineHeight: {
         "normal": "normal"
