@@ -27,7 +27,30 @@ module.exports = {
         "neutral-1000": "#000000",
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
+        "inter": ['Inter', 'sans-serif']
+      },
+      borderRadius: {
+        "signup-radius": "65px"
+      },
+      boxShadow: {
+        "signup-box-shadow": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)"
+      },
+      backdropBlur: {
+        "23": "blur(23.668209075927734px)"
+      },
+      width: {
+        "1.5": "6px",
+        "2.5": "10px",
+        "97.5": "390px",
+        "88": "334px",
+        "26": "100px",
+        "155.5": "155.5px",
+        "136": "136.129px",
+        "145": "145.238px",
+        "366": "366.817",
+      },
+      lineHeight: {
+        "normal": "normal"
       }
     },
   },
