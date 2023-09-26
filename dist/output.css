@@ -533,3 +533,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.font-inter {
+  font-family: Inter, sans-serif;
+}
