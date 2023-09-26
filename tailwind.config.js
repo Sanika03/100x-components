@@ -53,6 +53,9 @@ module.exports = {
       },
       lineHeight: {
         "normal": "normal"
+      },
+      borderColor: {
+        'border-stroke': 'var(--stroke, rgba(29, 155, 240, 0.24))',
       }
     },
   },
