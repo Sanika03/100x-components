@@ -10,13 +10,58 @@
     />
     <link href="../dist/output.css" rel="stylesheet"/>
   </head>
-  <body class="bg-black font-inter px-10 py-10">
-    <div class="flex">
-      <button class="flex w-88 py-2 px-6 justify-center items-center gap-2.5 rounded-signup-radius bg-neutral-50 shadow-signup-box-shadow backdrop-blur-23 hover:bg-neutral-200">
-        <p class="text-neutral-1000 text-center font-bold text-base leading-normal">
-          Create account
-        </p>
-      </button>
+  <body class="bg-black font-inter p-10 flex flex-col justify-center flex-wrap items-center">
+    <div class="flex gap-28 flex-wrap">
+      <div class="flex flex-col gap-8 flex-wrap">
+        <p class="font-bold text-white">Default/Hover</p>
+        
+        <div>
+          <button class="bg-neutral-50 flex w-442 py-3 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 shadow-signup-box-shadow backdrop-blur-23 hover:bg-neutral-200">
+            <p class="text-neutral-1000 text-center text-base font-bold leading-normal">Next</p>
+          </button>
+        </div>
+
+        <div>
+          <button disabled class="flex w-88 py-2 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 bg-neutral-50 shadow-signup-box-shadow backdrop-blur-23 hover:bg-neutral-200">
+            <p class="text-neutral-1000 text-center font-bold text-base leading-normal">
+              Create account
+            </p>
+          </button>
+        </div>
+
+        <div>
+          <button class="bg-neutral-50 inline-flex py-2 px-5 justify-center items-center gap-2.5 rounded-border-radius-30 hover:bg-neutral-200">
+            <p class="text-neutral-1000 text-sm font-bold leading-normal">Follow</p>
+          </button>
+        </div>
+        
+      </div>
+
+      <div class="flex flex-col gap-8 flex-wrap">
+        <p class="font-bold text-white">Disabled</p>
+        
+        <div>
+          <button disabled class="bg-neutral-200 flex w-442 py-3 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 shadow-signup-box-shadow backdrop-blur-23 opacity-50">
+            <p class="text-neutral-1000 text-center text-base font-bold leading-normal">Next</p>
+          </button>
+        </div>
+
+        <div>
+          <button disabled class="flex w-88 py-2 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 bg-neutral-50 shadow-signup-box-shadow backdrop-blur-23 hover:bg-neutral-200 opacity-50">
+            <p class="text-neutral-1000 text-center font-bold text-base leading-normal">
+              Create account
+            </p>
+          </button>
+        </div>
+        
+        <div>
+          <button disabled class="bg-neutral-200 inline-flex py-2 px-5 justify-center items-center gap-2.5 rounded-border-radius-30 opacity-50">
+            <p class="text-neutral-1000 text-sm font-bold leading-normal">
+              Follow
+            </p>
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
