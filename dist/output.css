@@ -594,6 +594,10 @@ video {
   flex-wrap: wrap;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -624,6 +628,10 @@ video {
 
 .gap-\[160px\] {
   gap: 160px;
+}
+
+.gap-\[2px\] {
+  gap: 2px;
 }
 
 .rounded-border-radius-30 {
