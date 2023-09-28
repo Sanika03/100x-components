@@ -730,8 +730,24 @@ video {
   padding-top: 1.25rem;
 }
 
+.pb-\[1px\] {
+  padding-bottom: 1px;
+}
+
 .pb-\[16px\] {
   padding-bottom: 16px;
+}
+
+.pb-\[18px\] {
+  padding-bottom: 18px;
+}
+
+.pb-\[19px\] {
+  padding-bottom: 19px;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .text-center {
