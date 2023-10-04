@@ -534,20 +534,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .flex {
   display: flex;
 }
 
 .inline-flex {
   display: inline-flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-\[3px\] {
@@ -570,6 +562,10 @@ video {
   width: 442px;
 }
 
+.w-482 {
+  width: 482px;
+}
+
 .w-88 {
   width: 334px;
 }
@@ -583,12 +579,8 @@ video {
   width: max-content;
 }
 
-.w-\[26\.625rem\] {
-  width: 26.625rem;
-}
-
-.w-full {
-  width: 100%;
+.w-434 {
+  width: 434px;
 }
 
 .flex-shrink-0 {
@@ -603,16 +595,16 @@ video {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-end {
   align-items: flex-end;
 }
 
 .items-center {
   align-items: center;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -643,6 +635,10 @@ video {
   gap: 7rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -663,6 +659,10 @@ video {
   gap: 2px;
 }
 
+.self-stretch {
+  align-self: stretch;
+}
+
 .rounded-border-radius-30 {
   border-radius: 30px;
 }
@@ -681,10 +681,6 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .border {
@@ -759,6 +755,11 @@ video {
   padding: 2rem;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-20 {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -819,11 +820,6 @@ video {
   padding-bottom: 15px;
 }
 
-.px-1 {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
 .pb-\[16px\] {
   padding-bottom: 16px;
 }
@@ -860,10 +856,6 @@ video {
   line-height: 1rem;
 }
 
-.text-\[0\.75rem\] {
-  font-size: 0.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -878,10 +870,6 @@ video {
 
 .leading-normal {
   line-height: normal;
-}
-
-.leading-\[1\.2\] {
-  line-height: 1.2;
 }
 
 .text-neutral-1000 {
@@ -929,6 +917,20 @@ video {
   color: rgb(115 115 115 / var(--tw-placeholder-opacity));
 }
 
+.placeholder-neutral-600::-moz-placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-placeholder-opacity));
+}
+
+.placeholder-neutral-600::placeholder {
+  --tw-placeholder-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-placeholder-opacity));
+}
+
+.caret-twitter-blue {
+  caret-color: #1D9BF0;
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
@@ -950,11 +952,6 @@ video {
   border-color: rgb(29 155 240 / var(--tw-border-opacity));
 }
 
-.focus-within\:text-twitter-blue:focus-within {
-  --tw-text-opacity: 1;
-  color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
 .hover\:bg-neutral-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 228 / var(--tw-bg-opacity));
@@ -965,54 +962,12 @@ video {
   background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
-.focus\:text-twitter-blue:focus {
-  --tw-text-opacity: 1;
-  color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
-.focus-visible\:text-twitter-blue:focus-visible {
-  --tw-text-opacity: 1;
-  color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
-.group:focus-within .group-focus-within\:block {
-  display: block;
-}
-
-.group:focus-within .group-focus-within\:border-twitter-blue {
-  --tw-border-opacity: 1;
-  border-color: rgb(29 155 240 / var(--tw-border-opacity));
-}
-
 .group:focus-within .group-focus-within\:text-twitter-blue {
   --tw-text-opacity: 1;
   color: rgb(29 155 240 / var(--tw-text-opacity));
-}
-
-.group:focus-within .group-focus-within\:placeholder-transparent::-moz-placeholder {
-  color: transparent;
-}
-
-.group:focus-within .group-focus-within\:placeholder-transparent::placeholder {
-  color: transparent;
-}
-
-.group:focus-within .group-focus-within\:-moz-placeholder-shown\:scale-y-75:-moz-placeholder-shown {
-  --tw-scale-y: .75;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:focus-within .group-focus-within\:placeholder-shown\:scale-y-75:placeholder-shown {
-  --tw-scale-y: .75;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:focus .group-focus\:outline-none {
-  outline: 2px solid transparent;
-  outline-offset: 2px;
 }
