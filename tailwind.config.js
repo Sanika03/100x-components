@@ -33,7 +33,8 @@ module.exports = {
       borderRadius: {
         "border-radius-65": "65px",
         "border-radius-30": "30px",
-        "border-radius-9999": "9999px"
+        "border-radius-9999": "9999px",
+        "border-radius-4": "4px"
       },
       boxShadow: {
         "signup-box-shadow": "0px 8px 16px 0px rgba(0, 0, 0, 0.25)"
@@ -51,7 +52,8 @@ module.exports = {
         "136": "136.129px",
         "145": "145.238px",
         "366": "366.817px",
-        "442": "442px"
+        "442": "442px",
+        "426": "426px"
       },
       lineHeight: {
         "normal": "normal"
