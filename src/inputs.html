@@ -6,7 +6,27 @@
     <title>Input Components</title>
     <link href="../dist/output.css" rel="stylesheet"/>
 </head>
-<body class="bg-black font-inter p-5 flex flex-col gap-14">
+<body class="bg-black font-inter flex flex-col gap-14 text-white p-8">
+    <div class="flex gap-24 items-center">
+        <p>Default</p>
+        <fieldset class="flex group w-426 py-4 px-3 items-center gap-2.5 bg-transparent rounded-border-radius-4 border border-neutral-500">
+            <legend class="text-neutral-500 text-xs font-medium leading-normal inline-flex px-1 justify-center items-center gap-2.5">
+                Label
+            </legend>
+            <input type="text" placeholder="label" class="bg-transparent text-xl font-normal leading-normal placeholder-neutral-500 focus:outline-none" />
+        </fieldset>
+    </div>
 
+    <div class="flex gap-24 items-center">
+        <p>Selected</p>
+        <fieldset class="flex justify-between group w-426 py-4 px-3 items-center gap-2.5 bg-transparent rounded-border-radius-4 border border-neutral-500 focus-within:border-twitter-blue">
+            <legend class="text-neutral-500 text-xs font-medium leading-normal inline-flex px-1 justify-center items-center gap-2.5 group-focus-within:text-twitter-blue">
+                Label
+            </legend>
+            <input type="text" placeholder="label" class="bg-transparent text-neutral-50 text-xl font-normal leading-normal placeholder-neutral-500 focus:outline-none" />
+            <img src="../public/images/green-check.svg" alt="Green checkmark" class="flex-shrink-0"/>
+        </fieldset>
+    </div>
 </body>
 </html>
+
