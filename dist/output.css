@@ -562,6 +562,14 @@ video {
   height: 143px;
 }
 
+.h-\[203px\] {
+  height: 203px;
+}
+
+.h-\[223px\] {
+  height: 223px;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -597,6 +605,14 @@ video {
 
 .w-\[512px\] {
   width: 512px;
+}
+
+.w-\[482px\] {
+  width: 482px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-shrink-0 {
@@ -947,6 +963,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .font-bold {
