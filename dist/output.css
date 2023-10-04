@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -617,6 +621,14 @@ video {
 
 .flex-shrink-0 {
   flex-shrink: 0;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.basis-0 {
+  flex-basis: 0px;
 }
 
 .flex-col {
@@ -719,6 +731,18 @@ video {
   gap: 84px;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-px {
+  gap: 1px;
+}
+
+.gap-\[5px\] {
+  gap: 5px;
+}
+
 .self-stretch {
   align-self: stretch;
 }
@@ -745,6 +769,10 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-\[200px\] {
+  border-radius: 200px;
 }
 
 .border {
@@ -935,6 +963,10 @@ video {
 
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-center {
