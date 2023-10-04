@@ -550,8 +550,16 @@ video {
   height: 58px;
 }
 
+.h-39 {
+  height: 39px;
+}
+
 .w-14 {
   width: 3.5rem;
+}
+
+.w-348 {
+  width: 348px;
 }
 
 .w-426 {
@@ -577,10 +585,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-434 {
-  width: 434px;
 }
 
 .flex-shrink-0 {
@@ -659,8 +663,32 @@ video {
   gap: 2px;
 }
 
-.self-stretch {
-  align-self: stretch;
+.gap-\[15px\] {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[90px\] {
+  gap: 90px;
+}
+
+.gap-\[88px\] {
+  gap: 88px;
+}
+
+.gap-\[85px\] {
+  gap: 85px;
+}
+
+.gap-\[84px\] {
+  gap: 84px;
 }
 
 .rounded-border-radius-30 {
@@ -737,6 +765,11 @@ video {
 .bg-twitter-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(29 155 240 / var(--tw-bg-opacity));
+}
+
+.bg-searchbar-fill {
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 35 39 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -820,12 +853,29 @@ video {
   padding-bottom: 15px;
 }
 
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
 .pb-\[16px\] {
   padding-bottom: 16px;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pr-\[247px\] {
+  padding-right: 247px;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .text-center {
@@ -947,9 +997,26 @@ video {
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+.focus-within\:border:focus-within {
+  border-width: 1px;
+}
+
 .focus-within\:border-twitter-blue:focus-within {
   --tw-border-opacity: 1;
   border-color: rgb(29 155 240 / var(--tw-border-opacity));
+}
+
+.focus-within\:fill-twitter-blue:focus-within {
+  fill: #1D9BF0;
+}
+
+.focus-within\:text-twitter-blue:focus-within {
+  --tw-text-opacity: 1;
+  color: rgb(29 155 240 / var(--tw-text-opacity));
+}
+
+.focus-within\:outline-twitter-blue:focus-within {
+  outline-color: #1D9BF0;
 }
 
 .hover\:bg-neutral-200:hover {
@@ -962,12 +1029,33 @@ video {
   background-color: rgb(24 113 202 / var(--tw-bg-opacity));
 }
 
+.focus\:fill-twitter-blue:focus {
+  fill: #1D9BF0;
+}
+
+.focus\:text-twitter-blue:focus {
+  --tw-text-opacity: 1;
+  color: rgb(29 155 240 / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
+.focus\:outline-twitter-blue:focus {
+  outline-color: #1D9BF0;
+}
+
+.group:focus-within .group-focus-within\:fill-twitter-blue {
+  fill: #1D9BF0;
+}
+
 .group:focus-within .group-focus-within\:text-twitter-blue {
   --tw-text-opacity: 1;
   color: rgb(29 155 240 / var(--tw-text-opacity));
+}
+
+.group:focus .group-focus\:fill-twitter-blue {
+  fill: #1D9BF0;
 }
