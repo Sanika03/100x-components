@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Components</title>
+    <link href="../dist/output.css" rel="stylesheet"/>
+  </head>
+  <body class="bg-black font-inter px-10 pt-24 pb-10 flex gap-28 flex-wrap">
+    <header id="navbar" class="bg-neutral-600 absolute top-0 left-0 right-0 py-5 px-4">
+      <nav class="flex items-center justify-center gap-10 text-xl font-bold text-neutral-50">
+        <a href="./index.html" class="hover:opacity-60">Buttons</a>
+        <a href="./cards.html" class="hover:opacity-60">Cards</a>
+        <a href="./inputs.html" class="hover:opacity-60">Inputs</a>
+        <a href="./tweet.html" class="hover:opacity-60">Tweet</a>
+      </nav>
+    </header>
+    <div class="flex flex-col gap-8 flex-wrap">
+      <p class="font-bold text-white">Default/Hover</p>
+      
+      <div>
+        <button class="bg-neutral-50 flex w-442 py-3 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 shadow-signup-box-shadow backdrop-blur-23 hover:bg-neutral-200">
+          <p class="text-neutral-1000 text-center text-base font-bold leading-normal">Next</p>
+        </button>
+      </div>
+
+      <div>
+        <button disabled class="flex w-334 py-2 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 bg-neutral-50 shadow-signup-box-shadow backdrop-blur-23 hover:bg-neutral-200">
+          <p class="text-neutral-1000 text-center font-bold text-base leading-normal">
+            Create account
+          </p>
+        </button>
+      </div>
+
+      <div>
+        <button class="bg-neutral-50 inline-flex py-2 px-5 justify-center items-center gap-2.5 rounded-border-radius-30 hover:bg-neutral-200">
+          <p class="text-neutral-1000 text-sm font-bold leading-normal">Follow</p>
+        </button>
+      </div>
+
+      <div>
+        <button class="inline-flex px-[93px] py-[15px] justify-center items-center gap-2.5 bg-twitter-blue rounded-border-radius-9999 hover:bg-twitter-blue-hover">
+          <p class="text-neutral-50 text-center text-base font-bold leading-normal">
+            Post
+          </p>
+        </button>
+      </div>
+
+      <div>
+        <button class="inline-flex py-3 px-6 justify-center items-center gap-2.5 bg-twitter-blue rounded-border-radius-30 hover:bg-twitter-blue-hover">
+          <p class="text-neutral-50 text-center text-base font-bold leading-normal">
+            Post
+          </p>
+        </button>
+      </div>
+
+      <div>
+        <button class="flex w-442 p-5 justify-center items-center gap-2.5 bg-twitter-blue rounded-border-radius-9999 hover:bg-twitter-blue-hover">
+          <p class="text-twitter-white-100 text-base font-bold leading-normal">
+            Post
+          </p>
+        </button>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-8 flex-wrap">
+      <p class="font-bold text-white">Disabled</p>
+      
+      <div>
+        <button disabled class="bg-neutral-200 flex w-442 py-3 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 shadow-signup-box-shadow backdrop-blur-23 opacity-50">
+          <p class="text-neutral-1000 text-center text-base font-bold leading-normal">Next</p>
+        </button>
+      </div>
+
+      <div>
+        <button disabled class="flex w-334 py-2 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 bg-neutral-50 shadow-signup-box-shadow backdrop-blur-23 hover:bg-neutral-200 opacity-50">
+          <p class="text-neutral-1000 text-center font-bold text-base leading-normal">
+            Create account
+          </p>
+        </button>
+      </div>
+      
+      <div>
+        <button disabled class="bg-neutral-200 inline-flex py-2 px-5 justify-center items-center gap-2.5 rounded-border-radius-30 opacity-50">
+          <p class="text-neutral-1000 text-sm font-bold leading-normal">
+            Follow
+          </p>
+        </button>
+      </div>
+
+      <div>
+        <button disabled class="inline-flex px-[93px] py-[15px] justify-center items-center gap-2.5 bg-twitter-blue rounded-border-radius-9999 opacity-50">
+          <p class="text-neutral-50 text-center text-base font-bold leading-normal">
+            Post
+          </p>
+        </button>
+      </div>
+
+      <div>
+        <button disabled class="inline-flex py-3 px-6 justify-center items-center gap-2.5 bg-twitter-blue rounded-border-radius-30 opacity-50">
+          <p class="text-neutral-50 text-center text-base font-bold leading-normal">
+            Post
+          </p>
+        </button>
+      </div>
+
+      <div>
+        <button disabled class="flex w-442 p-5 justify-center items-center gap-2.5 bg-twitter-blue rounded-border-radius-9999 hover:bg-twitter-blue-hover opacity-50">
+          <p class="text-twitter-white-100 text-base font-bold leading-normal">
+            Post
+          </p>
+        </button>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-8 flex-wrap">
+      <p class="font-bold text-white">Outline</p>
+
+      <div>
+        <button class="flex w-334 py-2 px-6 justify-center items-center gap-2.5 rounded-border-radius-65 shadow-signup-box-shadow backdrop-blur-23 border border-solid border-button-stroke">
+          <p class="text-twitter-blue text-center text-base font-bold leading-normal">
+            Sign up
+          </p>
+        </button>
+      </div>
+
+      <div>
+        <button class="inline-flex py-1.5 px-4 justify-center items-center gap-2.5 rounded-border-radius-65 border border-solid border-button-stroke backdrop-blur-23">
+          <p class="text-neutral-50 text-sm font-bold leading-normal">
+            Following
+          </p>
+        </button>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-8 flex-wrap">
+      <p class="font-bold text-white">Selected / Default</p>
+
+      <div class="flex w-[598px] h-[58px] pt-5 px-20 justify-center items-center gap-[160px] flex-shrink-0 border-b border-neutral-700">
+        <div class="flex flex-col justify-center items-center gap-4">
+          <p class="text-neutral-400 text-base font-medium leading-normal">
+            For you
+          </p>
+          <div class="w-14 h-[3px] rounded-border-radius-30 bg-twitter-blue"></div>
+        </div>
+
+        <div class="flex pb-[16px] justify-center items-center">
+          <p class="text-neutral-50 text-base font-medium leading-normal">
+          Following
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-8 flex-wrap">
+      <p class="font-bold text-white">Default</p>
+
+      <img src="../public/images/home-default-icon.svg" alt="Home icon" class="flex-shrink-0"/>
+
+      <img src="../public/images/profile-default-icon.svg" alt="Home icon" class="flex-shrink-0"/>
+    </div>
+
+    <div class="flex flex-col gap-8 flex-wrap">
+      <p class="font-bold text-white">Selected</p>
+
+      <img src="../public/images/home-selected-icon.svg" alt="Home icon" class="flex-shrink-0"/>
+
+      <img src="../public/images/profile-selected-icon.svg" alt="Home icon" class="flex-shrink-0"/>
+    </div>
+
+    <div class="flex flex-col gap-8 flex-wrap">
+      <p class="font-bold text-white">Icons</p>
+
+      <div class="flex items-end gap-[2px]">
+        <img src="../public/images/100.svg" alt="100 icon"/>
+        <img src="../public/images/x.svg" alt="X icon"/>
+      </div>
+
+      <div class="flex gap-5 flex-wrap">
+        <img src="../public/images/more.svg" alt="More icon"/>
+        <img src="../public/images/comment.svg" alt="Comment icon"/>
+        <img src="../public/images/retweet.svg" alt="Retweet icon"/>
+        <img src="../public/images/heart.svg" alt="Heart icon"/>
+        <img src="../public/images/reach.svg" alt="Reach icon"/>
+        <img src="../public/images/share.svg" alt="Share icon"/>
+        <img src="../public/images/calendar.svg" alt="Calendar icon"/>
+        <img src="../public/images/bookmark.svg" alt="Bookmark icon"/>
+      </div>
+
+      <div class="flex gap-5 flex-wrap">
+        <img src="../public/images/retweet-colored.svg" alt="Retweet icon"/>
+        <img src="../public/images/heart-colored.svg" alt="Heart icon"/>
+        <img src="../public/images/bookmark-colored.svg" alt="Bookmark icon"/>
+        <img src="../public/images/reach-colored.svg" alt="Reach icon"/>
+        <img src="../public/images/share-colored.svg" alt="Share icon"/>
+      </div>
+
+      <div class="flex gap-5 flex-wrap">
+        <img src="../public/images/cancel.svg" alt="Cancel icon"/>
+        <img src="../public/images/back.svg" alt="Back icon"/>
+        <img src="../public/images/settings.svg" alt="Settings icon"/>
+        <img src="../public/images/correct.svg" alt="Correct icon"/>
+        <img src="../public/images/add-photo.svg" alt="Add photo icon"/>
+      </div>
+
+      <div class="flex gap-5 flex-wrap bg-neutral-700 w-max p-2 rounded-md">
+        <img src="../public/images/visible-t.svg" alt="Eye icon"/>
+        <img src="../public/images/visible-f.svg" alt="Eye icon"/>
+      </div>
+    </div>  
+  </body>
+</html>
